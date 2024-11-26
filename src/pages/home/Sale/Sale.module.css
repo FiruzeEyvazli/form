@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.divSection {
+    display: flex;
+    flex-direction: column;
+  
+}
+.onediv .sale h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 25px;
+}
+
+.twoDiv{
+    display: flex;
+    padding: 40px;
+    width: 100%;
+}
+
+.twoDiv .saleImage img{
+    width: 100%;
+}
+
+.twoDiv .saleText{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    padding: 40px 50px;
+    padding-top: 80px;
+    gap: 25px;
+
+}
+
+.saleText h3{
+    font-size: 35px;
+    color: #7971ea;
+}
+
+.saleText button{
+    width: 35%;
+    border: none;
+    background-color: #7971ea;
+    padding: 15px;
+    margin-left: 33%;
+    color: white;
+}
+
+.saleText button:hover{
+    background-color: transparent;
+    color: #7971ea;
+    border: 2px solid #7971ea;
+}
+
+
+

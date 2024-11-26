@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.shipping {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 40px;
+
+}
+
+.shipping .shipCart {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.shipping .shipCart .shipIcon {
+    font-size: 60px;
+    color: #7971ea;
+}
+
+.shipping .shipCart .shipText {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.shipping .shipCart .shipText h3 {
+    font-size: 28px;
+   font-weight: 500;
+
+}
+
+.shipping .shipCart .shipText p {
+    font-size: 18px;
+    color: #8c92a0;
+    padding: 10px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bigFooter{
+   display: flex;
+   width: 100%;
+   padding: 30px 40px;
+}
+
+.bigFooter .texts{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 15%;
+    padding: 20px;
+    
+}
+
+.bigFooter .divfive{
+    width: 20%;
+    padding: 10px;
+}
+
+.divfour img{
+    width: 70%;
+}
+
+
+.bigFooter .divfour{
+    width: 30%;
+    
+}
+
+.bigFooter .divfive{
+    width: 35%;
+    padding: 20px;
+}
+
+
+.divfive .icon{
+    display: flex;
+}
+
+.bigFooter .texts p{
+    color: #5c626e;
+    padding: 10px 5px;
+    font-size: 17px;
+}
+
+.bigFooter .texts h3{
+    font-size: 25px;
+}
+
+.bigFooter .divfour p{
+    color: #5c626e;
+    font-size: 17px;
+}
+.bigFooter .divfour h3{
+    font-size: 25px;
+}
+
+.bigFooter .divfive p{
+    color: #5c626e;
+    font-size: 17px;
+}
+.bigFooter .divfive h3{
+    font-size: 25px;
+}
+
+.divfive .form form{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+   
+}
+
+.divfive .form form button{
+    width: 30%;
+    background-color: #7971ea;
+    color: white;
+   margin-right: 20%;
+}
+.divfive .form input{
+    display: flex;
+    border: 2px solid #5c626e;
+    width: 50%;
+    padding: 5px;
+
+}
+

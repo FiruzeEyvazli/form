@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.collections {
+    display: flex;
+    justify-content: space-between;
+}
+
+.collections .cart {
+    background-image: url(https://preview.colorlib.com/theme/shoppers/images/women.jpg);
+    width: 30%;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    align-items: flex-end;
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 10px;
+    position: relative;
+    
+    
+    
+}
+
+.cart::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(41, 38, 33, 0) 0%, #292621 100%);
+    z-index: 1;
+
+}
+
+.cart:nth-child(2) {
+background-image: url(https://preview.colorlib.com/theme/shoppers/images/children.jpg);
+}
+
+.cart:nth-child(3) {
+    background-image: url(https://preview.colorlib.com/theme/shoppers/images/men.jpg);
+}
+
+.cart .text {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 110%;
+    padding-left: 30px;
+    color: white;
+    z-index: 2;
+   
+
+
+}
+.collections .cart h4 {
+    font-size: 30px;
+    z-index: 2;
+    
+}
+
+.collections .cart p {
+    font-size: 14px;
+    z-index: 2;
+    
+    
+}
